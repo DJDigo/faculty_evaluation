@@ -27,5 +27,286 @@
         </ul>
       </div>
     </div>
+
+    <div class="staff-list">
+      <input type="text" placeholder="Search Name">
+      <button>Search</button>
+      <span class="staff-total">16 Member(s)</span>
+      <ul>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+        <li class="staff-item">
+          <img src="./img/common/avatar-placeholder.png" alt="staff image">
+          <span class="staff-name">Daryll James Digo</span>
+          <div class="staff-info">
+            <dl>
+              <dt>Position:</dt>
+              <dd>P.E Teacher/Recess In charge</dd>
+            </dl>
+            <dl>
+              <dt>Incharge:</dt>
+              <dd>Grade 5</dd>
+            </dl>
+            <dl>
+              <dt>Department:</dt>
+              <dd>Recess</dd>
+            </dl>
+          </div>
+          <div class="staff-button">
+            <a href="/faculty_evaluation/feedback">Give Feedback</a>
+          </div>
+        </li>
+      </ul>
+    </div> 
   </div>
 </div>

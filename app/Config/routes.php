@@ -11,7 +11,7 @@
  *
  * Licensed under The MIT License
  * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
+ * Redistributions of files must retain the above copyright noticek
  *
  * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
  * @link          http://cakephp.org CakePHP(tm) Project
@@ -25,6 +25,7 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'index'));
+	Router::connect('/feedback', array('controller' => 'pages', 'action' => 'feedback'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
