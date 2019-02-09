@@ -1,16 +1,16 @@
 <?php
 /**
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
+ * CakePHP(tm) : Rapid Development Framework (https://cakephp.org)
+ * Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
  *
  * Licensed under The MIT License
  * For full copyright and license information, please see the LICENSE.txt
  * Redistributions of files must retain the above copyright notice.
  *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
+ * @copyright     Copyright (c) Cake Software Foundation, Inc. (https://cakefoundation.org)
+ * @link          https://cakephp.org CakePHP(tm) Project
  * @since         CakePHP(tm) v 1.3
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
+ * @license       https://opensource.org/licenses/mit-license.php MIT License
  */
 
 App::uses('Hash', 'Utility');
@@ -543,6 +543,24 @@ class CakeRoute {
 		}
 		$out = str_replace('//', '/', $out);
 		return $out;
+	}
+
+/**
+ * Set state magic method to support var_export
+ *
+ * This method helps for applications that want to implement
+ * router caching.
+ *
+ * @param array $fields Key/Value of object attributes
+ * @return CakeRoute A new instance of the route
+ */
+	public static function __set_state($fields) {
+		$class = function_exists('get_called_class') ? get_called_class() : __CLASS__;
+		$obj = new $class('');
+		foreach ($fields as $field => $value) {
+			$obj->$field = $value;
+		}
+		return $obj;
 	}
 
 }
