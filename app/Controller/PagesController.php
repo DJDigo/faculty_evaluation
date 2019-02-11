@@ -80,4 +80,13 @@ class PagesController extends AppController {
 	public function feedback() {
 
 	}
+	public function admin_login() {
+
+	}
+	public function admin_dashboard() {
+
+	}
+	public function admin_register() {
+
+	}
 }

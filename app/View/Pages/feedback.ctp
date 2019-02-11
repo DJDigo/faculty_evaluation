@@ -1,6 +1,9 @@
 <div class="content">
   <div class="content-info">
     <div class="feedback-info">
+      <a href="/faculty_evaluation/" class="back-button">
+        <img src="./img/common/back.png" alt="back">
+      </a>
       <div class="feedback-logo">
         <img src="./img/common/avatar-placeholder.png" alt="Staff Image">
         <span>Daryll James Digo</span>

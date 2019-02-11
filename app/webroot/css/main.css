@@ -51,9 +51,9 @@ table {
 }
 .content-info {
     max-width: 1150px;
-    margin: 3% auto 0;
+    margin: 2% auto 0;
     font-size: 0;
-    background: #fff;
+    background: #2480c3;
     box-shadow: 3px 3px 6px #949494;
     border-radius: 3px;
     overflow: hidden;
@@ -64,6 +64,7 @@ table {
     font-size: 16px;
     background: #2480c3;
     display: inline-block;
+    position: relative;
 }
 .feedback-logo {
     text-align: center;
@@ -114,6 +115,7 @@ table {
     min-height: 600px;
     overflow-y: auto;
     position: relative;
+    background: #fff;
 }
 .staff-item img {
     width: 80px;
@@ -264,9 +266,10 @@ table {
     width: 70%;
     padding: 45px 100px 20px;
     box-sizing: border-box;
-    min-height: 580px;
-    max-height: 580px;
+    min-height: 600px;
+    max-height: 600px;
     overflow-y: auto;
+    background: #fff;
 }
 .form-group .form-question {
     font-size: 15px;
@@ -313,13 +316,19 @@ textarea {
     border-radius: 5px;
 }
 .submit {
-    background: blue;
-    border: 1px solid blue;
+    background: #2f2fff;
+    border: 1px solid #2f2fff;
     color: #fff;
     width: 50%;
     border-radius: 5px;
     padding: 15px;
     font-size: 16px;
+    cursor: pointer;
+}
+.submit:hover {
+    transition: 0.3s;
+    background: #fff;
+    color: #2f2fff;
 }
 .form-answer-button {
     text-align: center;
@@ -329,4 +338,179 @@ input[type="radio"]:checked ~ label {
     background: #faff14;
     color: #333;
     font-weight: bold;
+}
+.back-button {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.back-button img {
+    width: 35px;
+}
+.form-login {
+    padding: 100px 100px 20px;
+    position: relative;
+}
+
+.form-login-group {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding-block-start: 20px;
+}
+.form-login-group label {
+    display: block;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.form-login-input {
+    display: block;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+}
+.form-login-button-wrapper {
+    display: block;
+    text-align: center;
+    padding: 35px 0 0;
+}
+.form-login-button {
+    width: 50%;
+    display: inline-block;
+    border: 1px solid #2480c3;
+    background: #2480c3;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.form-login-button:hover {
+    background: #fff;
+    color: #2480c3;
+}
+.form-login-title {
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: initial;
+}
+.admin-info {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.admin-info span {
+    display: block;
+    text-align: center;
+    line-height: 1.5em;
+}
+.admin-name {
+    font-weight: bold;
+}
+.logout {
+    background: #ff4242;
+    border: 1px solid #ff4242;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    width: 50%;
+    margin-top: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+}
+.logout:hover {
+    background: #fff;
+    color: #ff4242;
+}
+.admin-content {
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 600px;
+    max-height: 600px;
+    overflow-y: auto;
+    background: #fff;
+    font-size: 0;
+    position: relative;
+}
+.admin-link-item {
+    font-size: 16px;
+    display: inline-block;
+    width: 33.334%;
+    text-align: center;
+    border-right: 1px solid #2480c3;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.admin-link-item a {
+    text-decoration: none;
+    border-bottom: 1px solid #2480c3;
+    display: block;
+    padding: 20px;
+    background: #ffffff;
+    color: #2480c3;
+    transition: 0.3s;
+}
+.admin-link-item a:hover {
+    background: #2480c3;
+    color: #fff;
+}
+
+.admin-link-item a.active {
+    background: #2480c3;
+    color: #fff;
+    font-weight: bold;
+}
+.feedback-logo-admin {
+    padding: 55px 0;
+}
+.admin-detail {
+    padding: 20px 100px;
+}
+.form-register {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-register-label {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: inherit;
+}
+.form-register-input {
+    display: inline-block;
+    width: 72%;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+.form-error {
+    font-size: 12px;
+    color: #f00;
+    display: inline-block;
+    margin-top: 5px;
+    width: 75%;
+    margin-left: 152px;
+}
+.form-register-button {
+    display: block;
+    text-align: center;
+}
+.form-register-button {
+    width: 72%;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
