@@ -25,6 +25,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<?php echo $cakeDescription ?>:
 		<?php echo $this->fetch('title'); ?>
 	</title>
+	<link rel="stylesheet" type="text/css" href="../plugins/datatables/datatables.min.css"/>
 	<?php
 		echo $this->Html->meta('icon');
 
@@ -34,6 +35,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
+	<script src="../js/jquery-3.1.0.min.js"></script>
+	<script src="../plugins/datatables/datatables.net.js"></script>
+	<script src="../plugins/datatables/datatables.min.js"></script>
 </head>
 <body>
 	

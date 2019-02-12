@@ -89,4 +89,7 @@ class PagesController extends AppController {
 	public function admin_register() {
 
 	}
+	public function admin_feedback() {
+
+	}
 }

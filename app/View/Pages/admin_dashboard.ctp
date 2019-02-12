@@ -18,12 +18,13 @@
           <a href="/faculty_evaluation/pages/admin_dashboard" class="active">Dashboard</a>
         </li>
         <li class="admin-link-item">
-          <a href="/faculty_evaluation/pages/admin_dashboard">Register Teacher/Staff</a>
+          <a href="/faculty_evaluation/pages/admin_register">Register Teacher/Staff</a>
         </li>
         <li class="admin-link-item">
-          <a href="/faculty_evaluation/pages/admin_dashboard">View Feedback</a>
+          <a href="/faculty_evaluation/pages/admin_feedback">View Feedback</a>
         </li>
       </ul>
+      <div class="admin-detail"></div>
     </div>
   </div>
 </div>
